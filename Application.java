@@ -1,23 +1,22 @@
-
 public class Application {
    public static void main(String[] args){
 String pendrivename="hp v23464 GB";
 double pendrivecost=375.77;
-String pendrivecolor="Black";
+String penardrivecolor="Black";
 String pendrivestorage="64GB";
 String pendrivespeed="100mbps";
 
 System.out.println(pendrivename);
 System.out.println(pendrivecost);
-System.out.println(pendrivecolor);
+System.out.println(penardrivecolor);
 System.out.println(pendrivestorage);
 System.out.println(pendrivespeed);
 
 String dryfrutsname="Happilo";
-String dryfrutsweight="250 gm";
+byte dryfrutsweight=25;
 String aboutdryfruts="it is zero colestrol";
 String aboutdryfrut="Zero-transfat";
-double dryfrutscost=271.55;
+byte dryfrutscost=27;
 
 System.out.println(dryfrutsname);
 System.out.println(dryfrutsweight);
@@ -25,11 +24,11 @@ System.out.println(aboutdryfruts);
 System.out.println(aboutdryfrut);
 System.out.println(dryfrutscost);
 
-String laptopname="Dell";
+char laptopname='D';
 String laptopprice="22000";
 String laptopcolor="block";
 String laptopweight="3-4kg";
-String laptopbattery="5000";
+byte laptopbattery=50;
 
 System.out.println(laptopname);
 System.out.println(laptopprice);
@@ -37,11 +36,11 @@ System.out.println(laptopcolor);
 System.out.println(laptopweight);
 System.out.println(laptopbattery);
 
-String Bikename="MT15";
+char Bikename='M';
 String Bikecolor="red";
 String Bikeprice="22000";
-String Bikeenginecc="220";
-double Bikeweight=150.05;
+short Bikeenginecc=220;
+byte Bikeweight=15;
 double Bikespeed=140.06;
 
 System.out.println(Bikename);
@@ -51,7 +50,7 @@ System.out.println(Bikeweight);
 System.out.println(Bikeprice);
 System.out.println(Bikeprice);
 
-String Tvname="samsang";
+char Tvname='s';
 double Tvprice=150.06;
 double Tvweight=25.066;
 String color="block";
@@ -65,7 +64,7 @@ System.out.println(color);
 System.out.println(tvsqfeat);
 System.out.println(tvipno);
 
-String Watercompaneyname="neslay";
+char Watercompaneyname='y';
 double waterprice=10.01;
 double waterweight=500.50;
 String Aboutwater="minerales adda.50gm";
@@ -117,7 +116,7 @@ System.out.println(price);
 
 String gasstovename="TATA";
 String gasstoveweigth="25kg";
-long gastoveno=25151154;
+long gastoveno=25151145;
 short shortno=25;
 double itsthick=2.5;
 
